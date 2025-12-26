@@ -18,4 +18,4 @@ This project exists as a learning exercise and a public record of my work as I g
 
 Live
 
-🔗 (link)
+🔗 (https://shraddhapant21-star.github.io/my-portfolio/)
