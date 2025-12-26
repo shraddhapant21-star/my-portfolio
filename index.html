@@ -28,7 +28,9 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
+        <li><a href="#certification">Certifications</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#articles">Articles</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 
@@ -49,12 +51,12 @@
   <!-- HERO / HOME -->
   <header id="home" class="home">
     <div class="home-card">
-      <img src="images and resume/IMG_1533.jpg" alt="Profile" class="profile-pic" />
+      <img src="./assets/profile-photo.jpg" alt="Profile" class="profile-pic" />
       <div class="hero-text">
         <h1 class="display-name">Hello, I'm <span>Shraddha Pant</span></h1>
         <p class="lead">Frontend Developer • Freelance Writer</p>
         <div class="hero-cta">
-          <a id="resumeBtn" class="btn" href="images and resume/Resume.docx" target="_blank" rel="noopener">Download
+          <a id="resumeBtn" class="btn" href="assets/Resume.pdf" target="_blank" rel="noopener">Download
             Resume</a>
           <a class="btn ghost" href="#projects">View Projects</a>
         </div>
@@ -68,11 +70,11 @@
       <h2>About Me</h2>
       <div class="about-container">
         <p>
-          I’m a frontend developer in progress, currently building projects using HTML, CSS, and JavaScript.
-          Before transitioning into tech, I worked as a program associate in fundraising and development,
-          gaining experience in research, planning, and problem-solving. Now I apply those analytical skills
-          to build clean, responsive, and user-friendly interfaces. I’m a creative, continuous learner with
-          a keen eye for detail and design.
+          I’m a self-taught frontend developer in progress, currently building projects using HTML, CSS, and JavaScript.
+          Before transitioning into tech, I worked as a program associate and content creater in development and
+          training sector.
+          I now apply those analytical and research skills to build clean, responsive, and user-friendly interfaces,
+          with strong attention to details.
         </p>
       </div>
     </div>
@@ -94,18 +96,24 @@
         <article class="exp-card">
           <i class="fa-solid fa-briefcase exp-icon"></i>
           <h3>Development & Research Roles</h3>
-          <p>Worked in research, project coordination, content development, and digital support roles.
-            Gained experience with presentations, platform management, and data handling — skills that support my
-            transition to front-end development.</p>
+          <p>
+            Worked in research, project coordination, content development, training, and digital support roles.
+            Gained experience with presentations, platform management, and data handling.
+          </p>
+
           <span class="exp-date">2020 - 2024</span>
         </article>
 
         <article class="exp-card">
           <i class="fa-solid fa-briefcase exp-icon"></i>
           <h3>Freelance Writer</h3>
-          <p>I'm a writer with wide range of interest. I can count it as a hobby to dive into the topics that sparks
-            curiosity. I am passionate about understanding how policies, communities and social issues come together to
-            shape the changes. </p>
+          <p>
+            I’m a writer with a wide range of interests and consider writing a space to explore topics that spark
+            curiosity.
+            I’m particularly interested in how policies, communities, businesses and social issues intersect to shape
+            meaningful change.
+          </p>
+
           <span class="exp-date">2020 - present</span>
         </article>
 
@@ -113,21 +121,32 @@
     </div>
   </section>
 
-<!-- Certification -->
+  <!-- Certification -->
+  <section id="certification">
+    <article class="exp-card">
+      <i class="fa-solid fa-graduation-cap exp-icon"></i>
+      <h2>Certifications</h2>
 
-<article class="exp-card">
-  <i class="fa-solid fa-graduation-cap exp-icon"></i>
-  <h3>Certifications</h3>
-  <p>Completed 3 freeCodeCamp certifications:</p>
+      <ul class="cert-list">
+        <li><i class="fa-solid fa-layer-group"></i> <a
+            href="https://www.freecodecamp.org/certification/shraddhapant/javascript-v9" target="_blank">JavaScript
+            Developer Certification — freeCodeCamp</a></li>
+        <li><i class="fa-solid fa-layer-group"></i> <a
+            href="https://www.freecodecamp.org/certification/shraddhapant/responsive-web-design-v9"
+            target="_blank">Responsive Web Design — freeCodeCamp</a></li>
+        <li><i class="fa-solid fa-layer-group"></i> <a
+            href="https://www.freecodecamp.org/certification/shraddhapant/a2-english-for-developers" target="_blank">A2
+            English for Developers — freeCodeCamp</a></li>
+        <li><i class="fa-solid fa-layer-group"></i> <a href="./assets/seo-marketing certificate.jpg"
+            target="_blank">
+            SEO and Social Media Marketing — SAKDU</a></li>
+        <li><i class="fa-solid fa-layer-group"></i> <a href="./assets/fundraising certificate.jpg"
+            target="_blank">Fundraising Training, Participation Certificate — Philantropia</a></li>
 
-  <ul class="cert-list">
-    <li><a href="https://www.freecodecamp.org/certification/shraddhapant/responsive-web-design-v9" target="_blank">Responsive Web Design — freeCodeCamp</a></li>
-    <li><a href="https://www.freecodecamp.org/certification/shraddhapant/a2-english-for-developers" target="_blank">A2 English for Developers - freeCodeCamp</a></li>
-    <li><a href="https://www.freecodecamp.org/certification/shraddhapant/responsive-web-design" target="_blank">Legacy Responsive Web Design V8 — freeCodeCamp</a></li>
-  </ul>
-  <span class="exp-date">2025</span>
-</article>
 
+      </ul>
+    </article>
+  </section>
 
   <!-- PROJECTS -->
   <section id="projects" class="section projects">
@@ -136,7 +155,7 @@
 
       <div class="project-list">
         <article class="project-card">
-          <img src="images and resume/weatherApp.JPG" alt="Weather App screenshot" />
+          <img src="assets/weatherApp.JPG" alt="Weather App screenshot" />
           <div class="project-body">
             <h3>Weather App</h3>
             <p>Real-time weather app using a public API and vanilla JS.</p>
@@ -150,9 +169,9 @@
         </article>
 
         <article class="project-card">
-          <img src="images and resume/todo-app.JPG" alt="Todo App" />
+          <img src="assets/todo-app.JPG" alt="Todo App" />
           <div class="project-body">
-            <h3>Todo App</h3>
+            <h3>Todo List App</h3>
             <p>Task manager with localStorage persistence and filtering.</p>
             <div class="project-meta">Tech: HTML • CSS • JS</div>
             <div class="project-links">
@@ -165,7 +184,7 @@
         <!--  -->
 
         <article class="project-card">
-          <img src="images and resume/quiz-app-img.JPG" alt="quiz-app-img App" />
+          <img src="assets/quiz-app-img.JPG" alt="quiz-app-img App" />
           <div class="project-body">
             <h3>Quiz App</h3>
             <p>Quiz app featuring multiple-choice questions, instant feedback, and score tracking.</p>
@@ -178,7 +197,7 @@
         </article>
 
         <article class="project-card">
-          <img src="images and resume/portfolio-screenshot.JPG" alt="Portfolio screenshot" />
+          <img src="assets/portfolio-screenshot.JPG" alt="Portfolio screenshot" />
           <div class="project-body">
             <h3>Portfolio</h3>
             <p>Responsive portfolio website (this one).</p>
@@ -194,15 +213,19 @@
   </section>
 
   <section id="articles" class="section articles">
-    <div class="container">
-      <h2>Stuff I Like to Write</h2>
+    <div class="exp-card ">
+      <h2>Writing & Articles</h2>
       <ul class="article-links">
-        <li><a href="https://startupxs.com/author/shraddha-pant/
+        <li><i class="fa-regular fa-note-sticky"></i>
+          <a href="https://startupxs.com/author/shraddha-pant/
 " target="_blank">Click here to read my articles on "StartupXs".
-          </a></li>
-        <li><a href="https://askmeaboutnepal.com/author/shraddhapant
+          </a>
+        </li>
+        <li><i class="fa-regular fa-note-sticky"></i>
+          <a href="https://askmeaboutnepal.com/author/shraddhapant
 " target="_blank">My Freelance writings on "Ask me About Nepal".
-          </a></li>
+          </a>
+        </li>
       </ul>
     </div>
   </section>

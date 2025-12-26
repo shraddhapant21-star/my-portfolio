@@ -1,10 +1,6 @@
 // Year in footer
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Resume button behavior: open resume.pdf (default link already set)
-document.getElementById('resumeBtn').addEventListener('click', (e) => {
-  // the anchor has href; default will open. This keeps existing behavior.
-});
 
 // Mobile menu
 const menuBtn = document.getElementById('menuBtn');
